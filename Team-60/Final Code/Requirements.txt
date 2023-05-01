@@ -1,0 +1,27 @@
+Requirements for the file svm_knn_logit_booking.R:
+Use libraries in our course:
+library(tidyverse)
+library(correlationfunnel)
+library(corrplot)
+library(caret)
+
+Use libraries not in our course:
+library(kernlab) for building SVM model
+library(kknn) for building KNN model
+library(skimr) for dataset summary including mini-histograms
+
+Requirements for timeseries.R:
+Use libraries in our course:
+library(tidyverse)
+library(lubridate)
+library(forecast)
+
+
+Requirements for Hotel_Cancellations_ logistic regression model.ipynb(python notebook file)
+
+Pandas library:           for analyzing, exploring, cleaning, and working with datasets
+Numpy library:            used for mathematical operations with arrays and matrices
+Sklearn.model selection:  used for training, splitting, and testing data
+SKlearn.linear_model:     used for linear and logistic regression
+SKleanr import meterics:  confusion matrix
+Matplotlib:               data visualization, plots, AUC plot
